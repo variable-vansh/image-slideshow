@@ -1,0 +1,126 @@
+* ::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0px;
+}
+
+.allImages {
+    display: flex;
+    align-items: center;
+
+    height: 95vh;
+    width: 180vw;
+    /* overflow: hidden; */
+}
+
+.allImages>img {
+    margin: 0px;
+    padding: 0px;
+
+    height: 20vw;
+    width: 20vw;
+
+    box-sizing: border-box;
+
+    /* border-radius: 15px; */
+}
+
+.blankSpace {
+    height: 20vw;
+    width: 20vw;
+    background-color: white;
+}
+
+.frame {
+    height: 20vw;
+    width: 20vw;
+
+    position: fixed;
+    left: 40%;
+    /* width: 20%; */
+
+    box-sizing: border-box;
+
+    border: 10px solid #002439;
+    /* border-radius: 15px; */
+}
+
+.coverUp {
+    height: 20vw;
+    width: 40vw;
+
+    position: fixed;
+
+    /* background-color: white; */
+
+    box-sizing: border-box;
+
+}
+
+.coverUpLeft {
+    background-color: white;
+    left: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.coverUpRight {
+    background-color: white;
+    right: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.leftButton>img {
+    height: 5vw;
+    padding: 10px;
+}
+
+.rightButton>img {
+    height: 5vw;
+    rotate: 180deg;
+    padding: 10px;
+}
+
+/* .emptySpace {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+} */
+
+.lowerCircles {
+    height: 2vw;
+    width: 10vw;
+    /* background-color: grey; */
+
+    position: fixed;
+    left: 40vw;
+    top: 72vh;
+
+    margin-left: 5vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circle {
+    background-color: white;
+    height: 60%;
+    width: 12%;
+    border-radius: 50%;
+
+    border: 5px solid #002439;
+
+    box-sizing: border-box;
+}
+
+.circle.active {
+    background-color: #002439;
+}
